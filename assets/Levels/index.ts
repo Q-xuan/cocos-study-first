@@ -1,4 +1,5 @@
 import level1 from 'db://assets/Levels/level1'
+
 import { TILE_TYPE_ENUM } from '../Enums'
 
 export interface ITile {
@@ -7,10 +8,10 @@ export interface ITile {
 }
 
 export interface ILevel {
-  mapInfo: ITile[][]
+  mapInfo: Array<Array<ITile>>
 }
 
-const levels = {
+const levels: Record<string, ILevel> = {
   level1,
 }
 
