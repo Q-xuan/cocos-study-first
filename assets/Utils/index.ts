@@ -7,3 +7,7 @@ export const createUINode = (_name: string = '') => {
   node.layer = 1 << Layers.nameToLayer('UI_2D')
   return node
 }
+
+export const randomByRange = (start: number, end: number) => {
+  return Math.floor(start + (end - start) * Math.random())
+}

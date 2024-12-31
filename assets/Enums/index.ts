@@ -10,3 +10,28 @@ export enum TILE_TYPE_ENUM {
   CLIFF_RIGHT = 'CLIFF_RIGHT',
   FLOOR = 'FLOOR',
 }
+
+export enum EVENT_ENUM {
+  NEXT_LEVEL = 'NEXT_LEVEL',
+  PLAYER_CTRL = 'PLAYER_CTRL',
+}
+
+export enum CONTROLLER_ENUM {
+  TOP = 'TOP',
+  BOTTOM = 'BOTTOM',
+  LEFT = 'LEFT',
+  RIGHT = 'RIGHT',
+  TURNLEFT = 'TURNLEFT',
+  TURNRIGHT = 'TURNRIGHT',
+}
+
+export enum FSM_PARAMS_TYPE_ENUM {
+  NUMBER = 'NUMBER',
+  TRIGGER = 'TRIGGER',
+}
+
+export enum PARAME_NAME_ENUM {
+  IDLE = 'IDLE',
+  TURNLEFT = 'TURNLEFT',
+  TURNRIGHT = 'TURNRIGHT',
+}
